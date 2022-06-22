@@ -1,0 +1,89 @@
+  209  git clone https://github.com/kavdesilva/u1_hw_star_wars.git
+  210  cd u1_hw_star_wars
+  211  code .
+  212  cd ..
+  213  pwd
+  214  mv /Users/kristinadesilva/u1_hw_star_wars ~/Users/kristinadesilva/Desktop/u1_hw_star_wars
+  215  pwd
+  216  ls
+  217  cd Desktop
+  218  ls
+  219  cd GA
+  220  cd unit01
+  221  cd homework
+  222  ls
+  223  cd u1_hw_star_wars
+  224  cd act1.sh
+  225  ls
+  226  open act1.sh
+  227  mkdir star_wars
+  228  cd star_wars
+  229  mkdir empire rebellion
+  230  ls
+  231  cd empire
+  232  touch darth_vader.txt
+  233  echo "...heavy breathing..." >> ~/.darth_vader.txt
+  234  touch emperor_palpatine.txt
+  235  mkdir death_star
+  236  mv ~/.darth_vader.txt ~/death_star/.darth_vader.txt
+  237  ls
+  238  pwd
+  239  mv ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/empiredarth_vader.txt /Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/empire/death_star
+  240  mv ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/empire/darth_vader.txt ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/empire/death_star \n
+  241  cd ..
+  242  open act2.sh
+  243  cd ..
+  244  open act2.sh
+  245  ls
+  246  cd star_wars
+  247  ls
+  248  cd rebellion
+  249  touch princess_leia.txt && echo "help me, obi-wan..."
+  250  echo "help me, obi-wan" >> ~/.princess_leia.txt
+  251  echo "help me, obi-wan..." >>/princess_leia.txt
+  252  echo "help me, obi-wan..." >> ~/princess_leia.txt
+  253  echo "help me, obi-wan..." >> princess_leia.txt
+  254  cd ..
+  255  cd empire
+  256  cd death_star
+  257  echo "...heavy breathing..." >> darth_vader.txt
+  258  cd ..
+  259  cd rebellion
+  260  touch obi_wan.txt luke_skywalker.txt
+  261  mkdir millenium_falcon
+  262  cd millenium_falcon
+  263  touch han_solo.txt chewbacca.txt
+  264  cd ..
+  265  ls
+  266  pwd
+  267  mv ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/rebellion/luke_skywalker.txt ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/rebellion/millenium_falcon
+  268  mv ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/rebellion/obi_wan.txt ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/rebellion/millenium_falcon
+  269  mv ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/rebellion/princess_leia.txt ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/rebellion/millenium_falcon
+  270  mv ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/rebellion/millenium_falcon ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/empire/death_star
+  271  cd ..
+  272  open act3.sh
+  273  cd star_wars
+  274  mv ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/empire/death_star/millenium_falcon/* ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/empire/death_star
+  275  cd empire
+  276  cd death_star
+  277  ls
+  278  rm obi_wan.txt
+  279  mv -t ~/millenium_falcon  chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt
+  280  mv ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/empire/death_star/chewbacca.txt ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/empire/death_star/millenium_falcon
+  281  ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/empire/death_star/luke_skywalker.txt ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/empire/death_star/millenium_falcon
+  282  mv ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/empire/death_star/luke_skywalker.txt ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/empire/death_star/millenium_falcon
+  283  mv ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/empire/death_star/han_solo.txt ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/empire/death_star/millenium_falcon
+  284  mv ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/empire/death_star/princess_leia.txt ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/empire/death_star/millenium_falcon
+  285  mv ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/empire/death_star/millenium_falcon ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/rebellion
+  286  mv ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/empire/death_star/darth_vader.txt ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/empire
+  287  cd ..
+  288  rm death_star
+  289  rmdir death_star
+  290  cd death_star
+  291  ls
+  292  cd ..
+  293  rmdir ~/death_star
+  294  rmdir ~/Desktop/GA/unit01/homework/u1_hw_star_wars/star_wars/empire/death_star
+  295  rmdir -r death_star
+  296  rm -rf death_star
+  297  cd ..
